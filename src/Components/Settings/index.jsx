@@ -11,7 +11,11 @@ const Settings = () => {
             <div>
                 <Option>
                     <div><i className={isLight ? 'bx bxs-sun' : 'bx bxs-moon'}></i><span>{isLight ? "Light" : "Dark"}</span></div>
-                    <Switch onChange={()=>setTheme(!isLight)} value={isLight} backgroundColor={{on: '#f9f9f9', off: '#757575'}} borderColor={{on: '#ccc', off: '#e6e6e6'}}/>
+                    <Switch onChange={()=>setTheme(!isLight)}
+                            value={isLight}
+                            backgroundColor={{on: '#f9f9f9', off: '#757575'}}
+                            borderColor={{on: '#ccc', off: '#e6e6e6'}}
+                            color="#eee"/>
                 </Option>
                 <Option>
                     <div><i className='bx bx-hive'></i><span>Language</span></div>
