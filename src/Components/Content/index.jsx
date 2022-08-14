@@ -7,7 +7,7 @@ const Content = () => {
             <Info>
                 <img src={avatar} alt="avatar"/>
                 <h2>John Doe</h2>
-                <h3>America</h3>
+                <h3>Designer</h3>
             </Info>
         </Profile>
     )

@@ -11,5 +11,6 @@ export const Option = styled.div`
     >div{
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
 `

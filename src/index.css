@@ -22,4 +22,5 @@ body{
 }
 i{
     font-size: x-large;
+    cursor: pointer;
 }
