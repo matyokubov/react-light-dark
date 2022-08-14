@@ -15,7 +15,7 @@ const Settings = () => {
                             value={isLight}
                             backgroundColor={{on: '#fff', off: '#0d0d0d'}}
                             borderColor={{on: '#ccc', off: '#e6e6e6'}}
-                            color={isLight ? "#0d0d0d" : "#fff"}/>
+                            color={isLight ? "rgb(141 141 141)" : "#fff"}/>
                 </Option>
                 <Option>
                     <div><i className='bx bx-hive'></i><span>Language</span></div>
